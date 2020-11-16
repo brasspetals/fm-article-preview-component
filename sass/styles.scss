@@ -52,11 +52,13 @@ body {
   position: relative;
   min-width: 29rem;
   max-width: 42rem;
+  overflow: hidden;
 
   @media only screen and (min-width: 900px) {
     flex-direction: row;
     max-width: 73rem;
     align-items: stretch;
+    overflow: visible;
   }
 
   &__img {
